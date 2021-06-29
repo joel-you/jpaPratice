@@ -3,6 +3,7 @@
              version="2.1">
     <persistence-unit name="hello">
         <class>hellojpa.Member</class>
+        <class>hellojpa.Team</class>
 
         <properties>
             <!-- 필수 속성 -->
