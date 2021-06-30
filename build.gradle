@@ -2,6 +2,15 @@ plugins {
     id 'java'
 }
 
+def generatedResources = "$buildDir/generated-resources/main"
+
+sourceSets {
+    main {
+        output.resourcesDir = file("build/resources");
+        java.outputDir = file("build/classes/java/main");
+    }
+}
+
 group 'jpa-basic'
 version '1.0.0'
 
