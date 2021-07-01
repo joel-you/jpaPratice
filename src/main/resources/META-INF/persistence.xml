@@ -4,7 +4,6 @@
     <persistence-unit name="hello">
         <class>hellojpa.Member</class>
         <class>hellojpa.Team</class>
-        <class>hellojpa.Locker</class>
         <class>hellojpa.Product</class>
         <class>hellojpa.MemberProduct</class>
         <class>hellojpa.Item</class>
