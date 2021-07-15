@@ -10,6 +10,9 @@
         <class>hellojpa.Album</class>
         <class>hellojpa.Book</class>
         <class>hellojpa.Movie</class>
+        <class>hellojpa.Period</class>
+        <class>hellojpa.Address</class>
+        <class>hellojpa.AddressEntity</class>
         <class>hellojpa.Parent</class>
         <class>hellojpa.Child</class>
 
